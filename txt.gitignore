@@ -1,0 +1,54 @@
+# =========================
+# Dataset & file nén
+# =========================
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.7z
+
+# Dataset thư mục
+data/
+datasets/
+input/
+output/
+__pycache__/
+
+# =========================
+# Checkpoints & mô hình
+# =========================
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# =========================
+# Notebook & cache
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Log & kết quả huấn luyện
+# =========================
+runs/
+logs/
+*.log
+wandb/
+
+# =========================
+# Virtual environment
+# =========================
+venv/
+.env/
+*.egg-info/
+*.egg
+
+# =========================
+# IDE & hệ điều hành
+# =========================
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
